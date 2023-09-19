@@ -1,5 +1,5 @@
 h1,
-h3,
+h2,
 p {
   text-align: center;
 }
@@ -11,4 +11,14 @@ footer a {
   color: green;
   cursor: pointer;
   text-decoration: underline;
+}
+.croissant-pic {
+  max-width: 100%;
+  border-radius: 8px;
+  display: block;
+  margin: 20px auto;
+}
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
 }
